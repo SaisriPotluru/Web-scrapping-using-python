@@ -60,11 +60,11 @@ The status() function is used to print all the list of the nature of the inciden
 -	There are few extra data which has to be removed before forming it as a data frame and pushing it to the database.
 
 #tests 
-1.test_download:to check the data in the url is not empty
-2.test_extractincidents:to check if the rows and columns are same after reading the data
-3.test_createdb:to check if the incidents table is created 
-4.test_populatedb:to check if after reading the total number rows are same 
-5.test_status:to check if the database is not null
+#1.test_download:to check the data in the url is not empty
+#2.test_extractincidents:to check if the rows and columns are same after reading the data
+#3.test_createdb:to check if the incidents table is created 
+#4.test_populatedb:to check if after reading the total number rows are same 
+#5.test_status:to check if the database is not null
 
 #External Resources:
 https://www.tutorialspoint.com/sqlite/sqlite_python.htm https://www.geeksforgeeks.org/list-methods-in-python-set-2-del-remove-sort-insert-pop-extend/ http://echrislynch.com/2018/07/13/turning-a-pdf-into-a-pandas-dataframe/
