@@ -36,7 +36,7 @@ In the function we extract the data by using the PyPDF2 package and store it a t
 
 This function will connect to a database 'NORMANPOLICE.db' and creates a table incidents .
 The structure of the database table should be in this format.
-
+```
 CREATE TABLE incidents (
 incident_time TEXT,
 incident_number TEXT,
@@ -44,6 +44,7 @@ incident_location TEXT,
 nature TEXT,
 incident_ori TEXT
 );
+```
 If needed so help to access sqlite3 you can check this link https://docs.python.org/3.8/library/sqlite3.html .
 
 **populatedb():**
