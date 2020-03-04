@@ -63,11 +63,11 @@ The status() function is used to print all the list of the nature of the inciden
 
 **tests:**
 
-#1.test_download:to check the data in the url is not empty
-#2.test_extractincidents:to check if the rows and columns are same after reading the data
-#3.test_createdb:to check if the incidents table is created 
-#4.test_populatedb:to check if after reading the total number rows are same 
-#5.test_status:to check if the database is not null
+-#1.test_download:to check the data in the url is not empty
+-#2.test_extractincidents:to check if the rows and columns are same after reading the data
+-#3.test_createdb:to check if the incidents table is created 
+-#4.test_populatedb:to check if after reading the total number rows are same 
+-#5.test_status:to check if the database is not null
 
 **External Resources:**
 
