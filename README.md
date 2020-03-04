@@ -2,7 +2,7 @@
 web scrapping using python
 
 
-**Norman, Oklahoma police department reports of incidents **
+**Norman, Oklahoma police department reports of incidents**
 
 This website consist of arrests, incidents and cases summaries.The data can be found in http://normanpd.normanok.gov/content/daily-activity website.In this project we are going to extract information from the file (PDF) then get the data into a database and display all the count of the nature types of the incidents happening.
 
@@ -12,7 +12,7 @@ Author Saisri M Potluru.You can contact me at saisri.m.potluru-1@ou.edu .
 The packages which has been used are urllib.request,PyPDF2,urllib,tempfile,sqlite3,argparse and pandas.
 
 
-**Setup Info : 
+**Setup Info :**
 
 You can create all the files using touch and mkdir commands.
 By giving the url of the required pdf ,we can fetch the data in the pdf,extract all the pages in the pdf then after performing the data scrapping the data is pushed to the sqlite3 database and we can get to know the count of the nature types of the incidents happening .The data which is extracted from the pdf has been stored as NORMANPOLICE.db. 
@@ -60,7 +60,7 @@ The status() function is used to print all the list of the nature of the inciden
 -	In one of the row the data gets into a next line which has to be handled correctly or else it would get as a separate data of next row in a list.
 -	There are few extra data which has to be removed before forming it as a data frame and pushing it to the database.
 
-**tests: **
+**tests:**
 
 #1.test_download:to check the data in the url is not empty
 #2.test_extractincidents:to check if the rows and columns are same after reading the data
