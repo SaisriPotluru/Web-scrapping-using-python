@@ -1,5 +1,5 @@
-# cs5293p19-project0
-web scrapping using python
+
+# web scrapping using python
 
 
 **Norman, Oklahoma police department reports of incidents**
