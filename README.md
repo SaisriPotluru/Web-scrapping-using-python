@@ -1,5 +1,5 @@
 
-# web scrapping using python
+# Web scrapping using python
 
 
 **Norman, Oklahoma police department reports of incidents**
